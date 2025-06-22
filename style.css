@@ -1,36 +1,91 @@
-
 body {
-  font-family: Arial, sans-serif;
   margin: 0;
-  padding: 0;
-  background-color: #0d0d1a;
-  color: #fff;
+  font-family: 'Roboto', sans-serif;
+  background-color: #f4f4f4;
+  color: #333;
+  line-height: 1.6;
+}
+
+header.hero {
+  background: linear-gradient(135deg, #141e30, #243b55);
+  color: white;
   text-align: center;
+  padding: 3rem 1rem;
 }
-header {
-  padding: 2rem;
-}
-.logo {
-  width: 150px;
+
+header .logo {
+  width: 120px;
   margin-bottom: 1rem;
 }
-h1 {
-  color: #00f0ff;
+
+header h1 {
+  font-size: 2rem;
+  margin-bottom: 0.5rem;
 }
-.cta-button {
-  display: inline-block;
-  padding: 1rem 2rem;
-  background-color: #00f0ff;
-  color: #000;
-  text-decoration: none;
-  border-radius: 5px;
-  margin-top: 1rem;
+
+header h1 span {
+  color: #00ffff;
 }
-section {
-  padding: 2rem;
-  border-top: 1px solid #222;
+
+header p {
+  font-size: 1.1rem;
+  margin-bottom: 1.5rem;
 }
 footer {
-  padding: 1rem;
-  background-color: #111;
+  background-color: #243b55;
+  color: #ccc;
+  text-align: center;
+  padding: 1.2rem 0;
+  font-size: 0.9rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+.cta-button {
+  background-color: #00ffff;
+  color: #000;
+  text-decoration: none;
+  padding: 0.8rem 1.5rem;
+  border-radius: 5px;
+  font-weight: bold;
+  transition: background 0.3s;
+}
+
+.cta-button:hover {
+  background-color: #00cccc;
+}
+
+.container {
+  max-width: 900px;
+  margin: 2rem auto;
+  padding: 0 1rem;
+}
+
+.card {
+  background-color: white;
+  border-radius: 8px;
+  padding: 1.5rem;
+  margin-bottom: 2rem;
+  box-shadow: 0 4px 12px rgba(0,
+
+.download-section {
+  text-align: center;
+}
+
+.btn-download {
+  display: inline-block;
+  background-color: #2f3c7e;
+  color: #fff;
+  padding: 0.8rem 1.5rem;
+  margin-top: 1rem;
+  border-radius: 5px;
+  text-decoration: none;
+  font-weight: bold;
+  transition: background 0.3s;
+}
+
+.btn-download:hover {
+  background-color: #4154a1;
 }
