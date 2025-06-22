@@ -1,0 +1,36 @@
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #0d0d1a;
+  color: #fff;
+  text-align: center;
+}
+header {
+  padding: 2rem;
+}
+.logo {
+  width: 150px;
+  margin-bottom: 1rem;
+}
+h1 {
+  color: #00f0ff;
+}
+.cta-button {
+  display: inline-block;
+  padding: 1rem 2rem;
+  background-color: #00f0ff;
+  color: #000;
+  text-decoration: none;
+  border-radius: 5px;
+  margin-top: 1rem;
+}
+section {
+  padding: 2rem;
+  border-top: 1px solid #222;
+}
+footer {
+  padding: 1rem;
+  background-color: #111;
+}
